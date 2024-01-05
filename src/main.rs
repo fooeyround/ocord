@@ -1,20 +1,9 @@
 use std::process::{Stdio, Command};
 
 fn main() {
-    println!("[ocord]: Starting Ocord! (Native Wayland)");
-
+    println!("[ocord]: Starting Ocord! (Native Wayland with Ozone)");
 
     //Open Discord, this requires the `discord` executable
-    
-
-    open_discord()
- 
-
-}
-
-
-fn open_discord() {
-
     Command::new("discord")
         .arg("-ozone-platform-hint=auto")
         .arg("--enable-features=UseOzonePlatform")
@@ -23,4 +12,8 @@ fn open_discord() {
         .stderr(Stdio::inherit())
         .output()
         .expect("failed to execute process");
+
 }
+
+
+
