@@ -8,6 +8,7 @@ fn main() {
         .arg("-ozone-platform-hint=auto")
         .arg("--enable-features=UseOzonePlatform")
         .arg("--ozone-platform=wayland")
+        .arg("--enable-gpu")
         .stdout(Stdio::inherit())
         .stderr(Stdio::inherit())
         .output()
