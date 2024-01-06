@@ -9,5 +9,4 @@ Ocord is only made to make it easier to launcher discord with `wofi`
 - `electron_ozone` (can be found on the AUR)
 
 
-### Known Issues
-- Custom Keybindings don't work, including PTT keys
+### Check the issue tracker for known issues.
