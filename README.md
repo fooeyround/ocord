@@ -1,6 +1,6 @@
 # Ocord
 
-## This is inothing special, just a wrapper for discord to run iton wayland without Xwayland
+## This is inothing special, just a wrapper for discord to run it wayland natively
 
 Ocord is only made to make it easier to launcher discord with `wofi`
 
