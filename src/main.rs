@@ -8,7 +8,8 @@ fn main() {
         .arg("-ozone-platform-hint=auto")
         .arg("--enable-features=UseOzonePlatform")
         .arg("--ozone-platform=wayland")
-        .arg("--enable-features=WebRTCPipeWireCapturer") // Enable Pipewire audio support
+        //Regression: Crashes when opening share screen window.
+        //.arg("--enable-features=WebRTCPipeWireCapturer") // Enable Pipewire audio support
         .arg("--enable-gpu")
         .stdout(Stdio::inherit())
         .stderr(Stdio::inherit())
