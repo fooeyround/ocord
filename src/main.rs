@@ -10,7 +10,18 @@ fn main() {
         .arg("--ozone-platform=wayland")
         //Regression: Crashes when opening share screen window.
         //.arg("--enable-features=WebRTCPipeWireCapturer") // Enable Pipewire audio support
+        .arg("--enable-webrtc-pipewire-capturer")
+
+        //Hardware acceleration related flags
         .arg("--enable-gpu")
+        .arg("--ignore-gpu-blocklist")
+        .arg("--enable-features=VaapiVideoDecoder")
+        .arg("--use-gl=desktop")
+        .arg("--enable-gpu-rasterization")
+        .arg("--enable-zero-copy")
+
+
+
         .stdout(Stdio::inherit())
         .stderr(Stdio::inherit())
         .output()
