@@ -16,6 +16,7 @@ fn main() {
         .arg("--enable-gpu")
         .arg("--ignore-gpu-blocklist")
         .arg("--enable-features=VaapiVideoDecoder")
+        //.arg("--enable-features=Vulkan")
         .arg("--use-gl=desktop")
         .arg("--enable-gpu-rasterization")
         .arg("--enable-zero-copy")
