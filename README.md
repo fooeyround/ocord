@@ -1,6 +1,6 @@
 # Ocord
 
-## This is inothing special, just a wrapper for discord to run it wayland natively
+### Archived in favor of not using the discord client for now.
 
 Ocord is only made to make it easier to launcher discord with `wofi`
 
