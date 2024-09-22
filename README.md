@@ -2,7 +2,7 @@
 
 ### Archived in favor of not using the discord client for now.
 
-Ocord is only made to make it easier to launcher discord with `wofi`
+Ocord is only made to make it easier to launcher discord with `tofi`
 
 ### Requirements
 - `discord` (Installed and in path, ocord wraps this command) 
